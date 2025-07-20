@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synergy Consult | Freelance Web Services</title>
+
+    <meta name="description" content="Synergy Consult offers professional freelance web design, development, SEO, and strategy to help businesses build a strong online presence and grow. Get a free quote today!">
+
+    <link rel="icon" href="images/favicon-96x96.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Synergy Consult | Freelance Web Services" />
+    <meta property="og:description" content="Professional freelance web design, development, SEO, and strategy to help businesses build a strong online presence and grow." />
+    <meta property="og:image" content="images/og-image.jpg" /> <meta property="og:url" content="https://www.yourwebsite.com/" /> <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Synergy Consult | Freelance Web Services">
+    <meta name="twitter:description" content="Professional freelance web design, development, SEO, and strategy to help businesses build a strong online presence and grow.">
+    <meta name="twitter:image" content="images/twitter-image.jpg"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav id="main-nav">
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Synergy Consult Logo">
+                <a href="#">Synergy Consult</a>
+            </div>
+            <button class="menu-toggle" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#" id="contact-link">Contact</a></li> </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="container">
+            <h1>Helping You Build a Strong Online Presence</h1>
+            <p>Creative Digital Solutions to Help Your Business Grow.</p>
+            <a href="#" id="hero-cta-button" class="cta-button">Get a Free Quote</a> </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>At Synergy Consult, we understand the complexities businesses face in establishing a powerful and effective online presence. Many struggle to stand out, attract their ideal customers, or truly leverage the web for growth. Our mission is to bridge that gap. We specialize in empowering businesses like yours to overcome these digital challenges by delivering tailored web solutions that don't just look good, but actively drive measurable results, turning your website into a dynamic asset for sustained success</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <ul>
+                <li>Website Design & Development</li>
+                <li>Landing Page Creation</li>
+                <li>SEO Optimization</li>
+                <li>1-on-1 Mentorship / Training</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Recent Projects</h2>
+            <div class="portfolio-grid">
+
+
+                <div class="portfolio-item">
+                    <img src="images/Piano.JPG" alt="Screenshot of a piano">
+                    <h3>Designing a piano using responsive-web-design</h3>
+                    <p>Design of a paino using css variable</p>
+                    <div class="project-links">
+                        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-33" target="_blank" class="btn-small">View Live</a>
+                        <a href="https://github.com/yourusername/techdocs" target="_blank" class="btn-small"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="images/City Skyline.JPG" alt="Screenshot of City Skyline Web Art project">
+                    <h3>City Skyline Web Art</h3>
+                    <p>An interactive web art piece showcasing a dynamic city skyline built purely with CSS and JavaScript.</p>
+                    <div class="project-links">
+                        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-118" target="_blank" class="btn-small">View Live</a>
+                        <a href="https://codepen.io/yourusername/cityskyline" target="_blank" class="btn-small">CodePen</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <img src="images/Ferris Wheel.JPG" alt="Screenshot of Ferris wheels using CSS animation">
+                    <h3>Building Ferris wheels using Css animation</h3>
+                    <p>CSS 3 is such a dynamic tools that employs animation in building any kind of shape.</p>
+                    <div class="project-links">
+                        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-80" target="_blank" class="btn-small">View Live</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+       <!-- Contact Modal -->
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button" aria-label="Close contact form">&times;</span>
+      <h2>Contact Me</h2>
+      <p>I'm excited to hear about your web development needs. Please provide some details so I can get back to you promptly.</p>
+      <form id="modal-contact-form">
+        <label for="modal-name">Name</label>
+        <input type="text" id="modal-name" placeholder="Your name" required>
+
+        <label for="modal-email">Email</label>
+        <input type="email" id="modal-email" placeholder="Your email" required>
+
+        <label for="modal-message">Message</label>
+        <textarea id="modal-message" placeholder="How can I help you?" rows="8" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="other-contact-info">
+        <h3>Other Ways to Reach Me:</h3>
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@synergyconsult.com">info@synergyconsult.com</a></p>
+        <p><i class="fab fa-linkedin-in"></i> Connect on LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+      </div>
+    </div>
+  </div>
+
+    <footer>
+        <p>&copy; 2025 Synergy Consult. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/yourpage" target="_blank" aria-label="Synergy Consult on Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/yourhandle" target="_blank" aria-label="Synergy Consult on Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="Synergy Consult on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" aria-label="Synergy Consult on GitHub"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
